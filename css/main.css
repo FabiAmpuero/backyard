@@ -1,0 +1,110 @@
+/* ------------------------------ GENERAL ----- */
+* {
+    outline: 1px solid rgba(255, 0, 0, 0.55);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Open Sans";
+}
+.container {
+    width: 58%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+/* ------------------------------- HEADER ----- */
+header img {
+    padding: 8px 0;
+}
+header ul {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+header li {
+    display: inline-block;
+    margin-right: 0;
+}
+header a {
+    text-decoration: none;
+    padding-left: 18px;
+    color: #797979;
+}
+/* --------------------------------- HERO ----- */
+.hero {
+    background: #909090;
+    color: #fff;
+    padding: 50px 0;
+    }
+.hero h1 {
+    font-size: 38px;
+}
+.hero p {
+    font-size: 11px;
+    padding-top: 30px;
+} 
+.hero form {
+    display: inline-block;
+}
+.hero form {
+    width: 250px;
+    background: rgba(193, 193, 193, 0.44);
+    padding: 17px;
+    border-radius: 10px;
+}
+.hero form h2 {
+    text-align: center;
+}
+.hero form input {
+    width: 100%;
+    margin: 3px 0;
+    padding: 3px 0;
+}
+.hero .subscribe {
+    background: #0e99ff;
+    color: #fff;
+    border: none;
+    padding: 3px 0;
+    font-size: 12px;
+}
+.left {
+    width: 55%;
+    display: inline-block;
+}
+.right {
+    width: 44%;
+    display: inline-block;
+    padding-left: 30px;
+    position: relative;
+    bottom: 100px;
+}
+/* ------------------------------- FOOTER ----- */
+footer span {
+    color: blue;
+}
+/* --------------------------- RESPONSIVE ----- */
+@media (min-width:535px) and (max-width:824px) {
+    .left {
+       width: 100%; 
+    }
+    .right {
+        width: 100%;
+        bottom: 0px;
+        padding-left: 0;
+    }  
+    .hero form {
+        width: 100%;
+        
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+
+
+
+
